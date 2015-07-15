@@ -1,0 +1,10 @@
+a {
+  color: #8b4513;
+}
+
+/* Google Maps API */
+
+#map-canvas {
+  width: 200px;
+  height: 200px;
+}
