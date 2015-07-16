@@ -2,9 +2,15 @@ a {
   color: #8b4513;
 }
 
+h3 {
+  color: #8b4513;
+}
+
 /* Google Maps API */
 
 #map-canvas {
-  width: 200px;
-  height: 200px;
+  margin: 10px 10px 0 0;
+  padding: 10px 10px 0 0;
+  width: 600px;
+  height: 500px;
 }
