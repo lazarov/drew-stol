@@ -9,7 +9,7 @@ $(document).ready(function() {
   });
   $('ul.nav li a').click(function() {
 			var page = $(this).attr('href');
-			$('#content').load('subs/' + page + '.html').hide(0).delay(0).fadeIn(1500);
+			$('#content').load('subs/' + page + '.html').hide(0).fadeIn(1500);
 			return false;
 	});
 });

@@ -2,8 +2,13 @@ a {
   color: #8b4513;
 }
 
-h3 {
+h4, h3, h2, h1, p {
   color: #8b4513;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /* Google Maps API */
@@ -13,4 +18,39 @@ h3 {
   padding: 10px 10px 0 0;
   width: 600px;
   height: 500px;
+}
+
+/* Kontakt */
+
+.kontakt {
+  font-weight: bold;
+  color: black;
+}
+
+/* IMAGE THUMBNAIL Osiągnięcia */
+
+.image-wrapper {
+  width: auto;
+  height: 350px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.image-wrapper img {
+  margin: 0%;
+  height: 50%;
+  width: auto;
+  -webkit-transition: margin 0.3s, height 0.3s;
+  -moz-transition: margin 0.3s, height 0.3s;
+  -o-transition: margin 0.3s, height 0.3s;
+  transition: margin 0.3s, height 0.3s;
+}
+
+.image-wrapper img:hover {
+  margin: 0;
+  height: 100%;
+  -webkit-transition: margin 0.3s, height 0.3s;
+  -moz-transition: margin 0.3s, height 0.3s;
+  -o-transition: margin 0.3s, height 0.3s;
+  transition: margin 0.3s, height 0.3s;
 }
