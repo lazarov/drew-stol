@@ -2,7 +2,7 @@ a {
   color: #8b4513;
 }
 
-h4, h3, h2, h1, p {
+h4, h3, h2, h1, p, li {
   color: #8b4513;
 }
 
@@ -48,9 +48,62 @@ p {
 
 .image-wrapper img:hover {
   margin: 0;
+  overflow: hidden;
   height: 100%;
   -webkit-transition: margin 0.3s, height 0.3s;
   -moz-transition: margin 0.3s, height 0.3s;
   -o-transition: margin 0.3s, height 0.3s;
   transition: margin 0.3s, height 0.3s;
 }
+
+/* Oferta */
+
+.image-oferta {
+  width: auto;
+  height: 250px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.image-oferta img {
+  width: auto;
+  height: 230px;
+  overflow: hidden;
+  text-align: center;
+  -webkit-transition: margin 0.3s, height 0.3s;
+  -moz-transition: margin 0.3s, height 0.3s;
+  -o-transition: margin 0.3s, height 0.3s;
+  transition: margin 0.3s, height 0.3s;
+}
+
+.image-oferta-przekroj {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.image-oferta-przekroj img {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  -webkit-transition: margin 0.3s, height 0.3s;
+  -moz-transition: margin 0.3s, height 0.3s;
+  -o-transition: margin 0.3s, height 0.3s;
+  transition: margin 0.3s, height 0.3s;
+}
+
+
+/* Oferta scrol */
+
+.col-md-9 {
+  overflow: auto;
+  overflow-x: hidden;
+  height: 500px;
+}
+/*
+::-webkit-scrollbar {
+  display: none;
+}
+*/
